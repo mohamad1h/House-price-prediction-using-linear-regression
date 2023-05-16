@@ -1,5 +1,7 @@
 # House-price-prediction-using-linear-regression
 This code is a solution to the hackerrank problem: Multiple Linear Regression: Predicting House Prices
+
+
 Problem:
 Objective
 In this challenge, we practice using multiple linear regression to predict housing prices. Check out the Resources tab for helpful videos!
@@ -21,21 +23,5 @@ The  subsequent lines each contain  space-separated floating-point numbers descr
 The next line (following the table) contains a single integer, , denoting the number of houses for for which Charlie noted features but does not know the price per square foot.
 The  subsequent lines each contain  space-separated floating-point numbers describing the features of a house for which pricing is not known.
 
-Constraints
-
-Scoring
-
-For each test case, we will compute the following:
 
 There are multiple ways to approach this problem that account for bias, variance, various subjective factors, and "noise". We take a realistic approach to scoring and permit up to a  swing of our expected answer.
-
-, where  is the maximum possible score for the test case.
-Consider a test case in which we only need to find the pricing for  house. Suppose our expected answer is , and your answer is :
-
-
-
-The score for a test case with  points 
-
-Output Format
-
-Print  lines, where each line  contains the predicted price for the  house (from the second table of houses with unknown prices per square foot).
